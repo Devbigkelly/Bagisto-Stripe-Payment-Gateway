@@ -1,10 +1,10 @@
 <?php
 
-namespace DevbigkellyBagisto\Stripe\ServiceProvider;
+namespace DevbigkellyBagisto\Stripe\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-class StripeServiceProvider extends ServiceProvider
+class StripeServiceProvider extends Providers
 {
     /**
      * Bootstrap services.
