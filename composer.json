@@ -10,7 +10,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "DevbigkellyBagisto\\Stripe\\ServiceProvider\\StripeServiceProvider"
+                "DevbigkellyBagisto\\Stripe\\Providers\\StripeServiceProvider"
             ],
             "aliases": {}
         }
