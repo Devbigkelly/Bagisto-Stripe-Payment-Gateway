@@ -4,7 +4,7 @@ namespace DevbigkellyBagisto\Stripe\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-class StripeServiceProvider extends Providers
+class StripeServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap services.
