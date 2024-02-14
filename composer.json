@@ -1,18 +1,26 @@
 {
     "name": "devbigkelly-bagisto/stripe",
     "description": "This package provides an additional strong help for user to use the stripe payment gateway in their bagisto laravel application",
-    "require": {
-        "stripe/stripe-php": "^13.10"
-    },
     "license": "MIT",
     "autoload": {
         "psr-4": {
             "DevbigkellyBagisto\\Stripe\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DevbigkellyBagisto\\Stripe\\ServiceProvider\\StripeServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
     "authors": [
         {
             "name": "Ameti Akpan"
         }
-    ]
+    ],
+    "require": {
+        "stripe/stripe-php": "^13.10"
+    }
 }
